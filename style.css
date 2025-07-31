@@ -1,4 +1,88 @@
-body{
-    color:rgb(255, 255, 255);
-    background:rgb(0, 0, 0);
+body {
+    color: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
+
+header {
+     border-bottom: solid 2px rgb(0, 0, 0);
+     padding: 20px;
+     font-size: 25; 
+     color: rgba(255, 255, 255, 0.79);
+}   
+
+.chamada {
+    background: rgba(233, 233, 233, 0.79);
+    padding-bottom: 80px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto { 
+    margin-right: 5%;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 350px;
+}
+
+.Temp-Saopaulo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.Temp {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    margin-top: 29px;
+}
+
+.Temp-Saopaulo img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Temp-Saopaulo img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.Temp {
+    color: rgba(255, 0, 0, 0.79);
+}
+
